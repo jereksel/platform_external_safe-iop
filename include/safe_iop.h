@@ -59,6 +59,8 @@
 #include <limits.h>  /* for CHAR_BIT */
 #include <assert.h>  /* for type enforcement */
 
+#define typeof __typeof__
+
 typedef enum { SAFE_IOP_TYPE_S32 = 1,
                SAFE_IOP_TYPE_U32,
                SAFE_IOP_TYPE_DEFAULT = SAFE_IOP_TYPE_S32,
